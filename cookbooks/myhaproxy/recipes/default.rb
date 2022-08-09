@@ -12,8 +12,8 @@ end
 
 haproxy_backend 'server_backend' do
   server [
-    'ec2-3-83-225-172.compute-1.amazonaws.com 3.83.225.172 maxconn 32',
-    'ec2-100-26-3-47.compute-1.amazonaws.com 100.26.3.47 maxconn 32'
+    'ec2-3-83-225-172.compute-1.amazonaws.com 3.83.225.172:80 maxconn 32',
+    'ec2-100-26-3-47.compute-1.amazonaws.com 100.26.3.47:80 maxconn 32'
   ]
 end
 
