@@ -2,6 +2,7 @@
 # Cookbook:: company-web
 # Recipe:: default
 #
+# New comment
 # Copyright:: 2022, The Authors, All Rights Reserved.
 case node['platform']
 when 'windows'
