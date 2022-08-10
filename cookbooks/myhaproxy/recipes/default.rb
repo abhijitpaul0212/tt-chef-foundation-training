@@ -10,13 +10,14 @@ haproxy_frontend 'http-in' do
   default_backend 'server_backend'
 end
 
-web_nodes = search('node', 'policy_name:company_web')
+# web_nodes = search('node', 'policy_name:company_web')
+web_nodes = search('node', "policy_name:company_web AND policy_group:#{node.policy_group}")
 
 server_array = []
 
-web_nodes.each do |one_node|
-  one_server = "#{one_node['cloud']['public_hostname']} #{one_node['cloud']['public_ipv4']}:80 maxconn 32"
-  server_array.push(one_server)
+web_nodes.each do |web_node|
+  web_server = "#{web_node['cloud']['public_hostname']} #{web_node['cloud']['public_ipv4']}:80 maxconn 32"
+  server_array.push(web_server)
 end
 
 haproxy_backend 'server_backend' do
@@ -28,5 +29,6 @@ haproxy_backend 'server_backend' do
 end
 
 haproxy_service 'haproxy' do
-  action [ :enable, :start ]
+  # action [ :enable, :start ]
+  subscribes :reload, 'template[/etc/haproxy/haproxy.cfg]', :delayed
 end
