@@ -1,5 +1,5 @@
 {
-  "revision_id": "2ff6a8e0475b522262353930a03fa08112c614316446ce14e60660f74152bf2b",
+  "revision_id": "0ccdc3ebe114d25e252d271889f5b2d5b14f92704619dfdc633aed73a6deac6f",
   "name": "myhaproxy",
   "run_list": [
     "recipe[myhaproxy::default]"
@@ -21,14 +21,14 @@
     },
     "myhaproxy": {
       "version": "1.1.0",
-      "identifier": "94c5a5c0a95fd5baebe49aae2c0b9fe42f2e5c4d",
-      "dotted_decimal_identifier": "41875612245778389.52613712748358667.175802392927309",
+      "identifier": "06cca14c46f1dd2b90611b7a1759857c8d743ee4",
+      "dotted_decimal_identifier": "1913843001782749.12262170745771865.146769995644644",
       "source": "../cookbooks/myhaproxy",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
-        "revision": "c7f9290eeeb50d37d7847532f7b571aa3808fc9a",
+        "revision": "c31e3affc2d20cd48ebdf7c6856ff1ade7f4241a",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [

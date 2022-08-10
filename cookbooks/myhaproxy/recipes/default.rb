@@ -29,6 +29,6 @@ haproxy_backend 'server_backend' do
 end
 
 haproxy_service 'haproxy' do
-  # action [ :enable, :start ]
   subscribes :reload, 'template[/etc/haproxy/haproxy.cfg]', :delayed
+  action [ :enable, :start ]
 end
