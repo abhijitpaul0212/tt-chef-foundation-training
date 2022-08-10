@@ -1,7 +1,8 @@
 {
-  "revision_id": "b0cd13957ec990a2aec4ea306b4ea9b810ff5c181e3cbb34cde5d2b57effac06",
+  "revision_id": "db6206f8fdd17b5a02dfcca791e2e32892da9702156d86d505b1e3668429782c",
   "name": "company_web",
   "run_list": [
+    "recipe[mychef_client::default]",
     "recipe[company_web::default]"
   ],
   "included_policy_locks": [
@@ -16,12 +17,12 @@
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": null,
-        "revision": null,
-        "working_tree_clean": true,
-        "published": false,
+        "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
+        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "working_tree_clean": false,
+        "published": true,
         "synchronized_remote_branches": [
-
+          "origin/main"
         ]
       },
       "source_options": {
@@ -30,22 +31,42 @@
     },
     "company_web": {
       "version": "0.1.0",
-      "identifier": "2976ec87c87aaa8e6dda6ee94d8f046ce45c67cc",
-      "dotted_decimal_identifier": "11671232307559082.40090231623994767.4865734240204",
+      "identifier": "c55f12f400001d3d74b9d50fc61d521333930d6f",
+      "dotted_decimal_identifier": "55555105419690013.17298315071702557.90242423131503",
       "source": "../cookbooks/company_web",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": null,
-        "revision": null,
-        "working_tree_clean": true,
-        "published": false,
+        "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
+        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "working_tree_clean": false,
+        "published": true,
         "synchronized_remote_branches": [
-
+          "origin/main"
         ]
       },
       "source_options": {
         "path": "../cookbooks/company_web"
+      }
+    },
+    "mychef_client": {
+      "version": "0.1.0",
+      "identifier": "575fd56689b2c8f888f0aafb3db2f36f76b2dfdc",
+      "dotted_decimal_identifier": "24593693126800072.69956361466363314.267660058353628",
+      "source": "../cookbooks/mychef_client",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
+        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/main"
+        ]
+      },
+      "source_options": {
+        "path": "../cookbooks/mychef_client"
       }
     },
     "myiis": {
@@ -56,12 +77,12 @@
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": null,
-        "revision": null,
-        "working_tree_clean": true,
-        "published": false,
+        "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
+        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "working_tree_clean": false,
+        "published": true,
         "synchronized_remote_branches": [
-
+          "origin/main"
         ]
       },
       "source_options": {
@@ -86,6 +107,10 @@
         ">= 0.0.0"
       ],
       [
+        "mychef_client",
+        ">= 0.0.0"
+      ],
+      [
         "myiis",
         ">= 0.0.0"
       ]
@@ -103,6 +128,9 @@
           "apache",
           ">= 0.0.0"
         ]
+      ],
+      "mychef_client (0.1.0)": [
+
       ],
       "myiis (0.2.1)": [
 
