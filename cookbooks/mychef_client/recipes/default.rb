@@ -4,7 +4,7 @@
 #
 # Copyright:: 2022, The Authors, All Rights Reserved.
 
-if platform? ('windows')
+if platform?('windows')
   chef_client_scheduled_task 'Run as a scheduled task' do
     frequency 'minute'
     frequency_modifier 10

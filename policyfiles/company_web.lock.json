@@ -1,5 +1,5 @@
 {
-  "revision_id": "db6206f8fdd17b5a02dfcca791e2e32892da9702156d86d505b1e3668429782c",
+  "revision_id": "ad95c551486b1ac0d2a09944f395aeb6f80b98af3e65117db1e5b3c6120a4a2e",
   "name": "company_web",
   "run_list": [
     "recipe[mychef_client::default]",
@@ -18,7 +18,7 @@
       "scm_info": {
         "scm": "git",
         "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
-        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "revision": "512257f57f15688130586258ddf43febeb92d785",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
@@ -38,7 +38,7 @@
       "scm_info": {
         "scm": "git",
         "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
-        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "revision": "512257f57f15688130586258ddf43febeb92d785",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
@@ -51,14 +51,14 @@
     },
     "mychef_client": {
       "version": "0.1.0",
-      "identifier": "575fd56689b2c8f888f0aafb3db2f36f76b2dfdc",
-      "dotted_decimal_identifier": "24593693126800072.69956361466363314.267660058353628",
+      "identifier": "89cf4dad82b40e2f18ba3e698bee5e98b7f6bba8",
+      "dotted_decimal_identifier": "38790004339815438.13256512095489006.104010014440360",
       "source": "../cookbooks/mychef_client",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
-        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "revision": "512257f57f15688130586258ddf43febeb92d785",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
@@ -78,7 +78,7 @@
       "scm_info": {
         "scm": "git",
         "remote": "https://github.com/abhijitpaul0212/tt-chef-training.git",
-        "revision": "7611d1cd12c5936f124c69b088d1644bba02c1dd",
+        "revision": "512257f57f15688130586258ddf43febeb92d785",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
