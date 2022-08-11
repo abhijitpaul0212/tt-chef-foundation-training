@@ -18,3 +18,12 @@ The config file, `.chef/config.rb` is a repository-specific configuration file f
 ## Next Steps
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+
+## Resources
+1. https://docs.chef.io/
+2. https://learn.chef.io/
+3. https://supermarket.chef.io/
+4. https://community.chef.io/
+5. https://kitchen.ci/
+6. http://www.learningchef.com/
+7. https://www.youtube.com/user/getchef/playlists
